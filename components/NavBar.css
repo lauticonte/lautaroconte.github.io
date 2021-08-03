@@ -59,7 +59,7 @@ html {
 
 @media screen and (max-width: 800px) {
   .navbar {
-    width: auto;
+    width: 220px;
     position: fixed;
     top: auto;
     bottom: 30px;
@@ -75,7 +75,7 @@ html {
     justify-content: flex-start;
     margin-right: 0;
     max-width: none;
-    color: #0d0d0d;
+    color: white;
     font-weight: bold;
     flex-direction: row-reverse;
     margin-bottom: -64px;
@@ -86,10 +86,8 @@ html {
 
   .navbar > a > div {
     margin-left: 10px;
-    margin-bottom: 5px;
     border: 10px solid #0d0d0d;
     background: #0d0d0d;
-    border-radius: 50%;
   }
 
   .navbar > section {
@@ -98,14 +96,19 @@ html {
   }
 
   .navbar > section > a {
-    color: #0d0d0d;
+    color: white;
+    background: black;
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    font-weight: bold;
     margin-bottom: -64px;
     transition: all 0.3s ease-in-out;
     opacity: 0;
+  }
+
+  #cover-negro {
+    background: black;
+    width: 220px;
   }
 
   .navbar > section > a:hover {
@@ -128,7 +131,6 @@ html {
     margin-left: 10px;
     border: 10px solid #0d0d0d;
     background: #0d0d0d;
-    border-radius: 50%;
   }
 
   #show-menu-icon > svg {

@@ -112,7 +112,8 @@ html {
   }
 
   .navbar > section > a:hover {
-    color: #1d1d1d;
+    color: black;
+    background: gainsboro;
   }
 
   .navbar > section > a > div {

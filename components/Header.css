@@ -27,3 +27,10 @@
 .cover > p {
   font-size: 23px;
 }
+
+
+@media screen and (max-width: 800px) {
+  .cover > h1 {
+    font-size: 45px;
+  }
+}

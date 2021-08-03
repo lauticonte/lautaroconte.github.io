@@ -135,8 +135,16 @@
 }
 
 @media screen and (max-width: 800px) {
+  .projects-container > span {
+    max-width: 70%;
+  }
+
   .projects-container > span > h2 {
     font-size: 30px;
+  }
+
+  .projects-container > span > p {
+    text-align: center;
   }
 
   .projects-container > section {

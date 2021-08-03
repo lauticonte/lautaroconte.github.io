@@ -276,7 +276,7 @@
   }
 
   .info-contact > h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   .info-contact > div > ul > li {
     width: auto;
@@ -284,7 +284,7 @@
 
   .info-contact > div > p,
   .info-contact > div > ul {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .info-contact > span {

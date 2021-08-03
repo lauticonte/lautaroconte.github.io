@@ -74,6 +74,12 @@
 
   .animation > div > h2 {
     font-size: 30px;
+    text-align: center;
+  }
+
+  .animation > div > p {
+    text-align: left;
+    text-justify: distribute;
   }
 
   @media screen and (max-width: 500px) {

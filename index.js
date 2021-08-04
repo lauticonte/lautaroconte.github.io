@@ -1,3 +1,9 @@
+// LOADER
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut(6500);
+  $(".loader").fadeOut(1000);
+});
+
 // ABOUT ME ANIMATION
 const animations = (elementId) => {
   let animationEffect = document.getElementById(elementId);

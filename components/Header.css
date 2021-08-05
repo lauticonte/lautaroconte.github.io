@@ -32,6 +32,7 @@
 @media screen and (max-width: 800px) {
   .cover > h1 {
     font-size: 45px;
-    letter-spacing: -2px
+    letter-spacing: -2px;
+    font-weight: 1000;
   }
 }

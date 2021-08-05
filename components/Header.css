@@ -33,6 +33,13 @@
   .cover > h1 {
     font-size: 45px;
     letter-spacing: -2px;
-    font-weight: 1000;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    font-weight: 700;
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
   }
 }

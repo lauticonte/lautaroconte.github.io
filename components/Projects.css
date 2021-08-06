@@ -28,7 +28,6 @@
 }
 
 .projects-container > section {
-  max-width: 50%;
   display: flex;
   align-items: center;
   scroll-snap-type: x mandatory;

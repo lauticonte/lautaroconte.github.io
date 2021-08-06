@@ -1,7 +1,9 @@
 // LOADER
-$(window).on("load",function(){
+$(document).ready(function() {
+  $("#arrow").hide();
   $(".loader-wrapper").fadeOut(6500);
   $(".loader").fadeOut(1000);
+  $("#arrow").delay(6500).fadeIn();
 });
 
 // ABOUT ME ANIMATION

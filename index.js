@@ -9,7 +9,6 @@ $(document).ready(function() {
   const yearNow = new Date().getFullYear();
   var html = '&copy; Copyright ' + yearNow + ', Conte Lautaro';
   $(".quote").html(html);
-  $(".quote2").html(html);
 });
 
 // ABOUT ME ANIMATION
@@ -89,13 +88,8 @@ document.getElementById("contact").addEventListener("click", () => {
 
 const contactAnimation = () => {
   const animation = document.getElementById("contact-animation");
-  if (document.documentElement.scrollTop > 2420) {
     animation.style.animation = "socialMedia 1s none";
     animation.style.opacity = 1;
-  } else {
-    animation.style.animation = "hideSocialMedia 1s none";
-    animation.style.opacity = 0;
-  }
 };
 window.addEventListener("scroll", () => contactAnimation());
 

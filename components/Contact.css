@@ -94,6 +94,7 @@
 }
 
 .quote {
+  font-family: jetBrains;
   position: absolute;
   bottom: 45px;
   margin-left: 50%;

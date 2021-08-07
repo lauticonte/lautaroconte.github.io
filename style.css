@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
+@font-face {
+  font-family: jetBrains;
+  src: url(./multimedia/JetBrainsMono-Regular.woff2);
+}
 
 *{
     padding: 0;

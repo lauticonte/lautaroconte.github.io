@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   //Copyright
   const yearNow = new Date().getFullYear();
-  var html = '&copy; Copyright ' + yearNow + ', Conte Lautaro';
+  var html = '&copy; Copyright' + yearNow + ',<img src="./favicon/favicon-black.png" class="logo" width="32" height="32">' + 'Conte Lautaro';
   $(".quote").html(html);
 });
 

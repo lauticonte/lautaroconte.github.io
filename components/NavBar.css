@@ -57,6 +57,10 @@ html {
   color: rgb(168, 168, 168);
 }
 
+.logo {
+  margin-bottom: -10px;
+}
+
 @media screen and (max-width: 800px) {
   .navbar {
     width: 220px;
@@ -143,6 +147,9 @@ html {
     margin-left: 0;
     color: rgb(240, 240, 240);
   }
+
+
+  
 
   /* ANIMACIONES CHECKED */
   #menu-checkbox:checked ~ section > a,

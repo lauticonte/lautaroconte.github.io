@@ -1,9 +1,15 @@
-// LOADER
 $(document).ready(function() {
+  // Loader
   $("#arrow").hide();
   $(".loader-wrapper").fadeOut(6500);
   $(".loader").fadeOut(1000);
   $("#arrow").delay(6500).fadeIn();
+
+  //Copyright
+  const yearNow = new Date().getFullYear();
+  var html = '&copy; Copyright ' + yearNow + ', Conte Lautaro';
+  $(".quote").html(html);
+  $(".quote2").html(html);
 });
 
 // ABOUT ME ANIMATION

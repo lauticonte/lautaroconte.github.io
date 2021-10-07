@@ -81,7 +81,7 @@ const animationFour = (elementId) => {
 window.addEventListener("scroll", () => animationFour("skills-text"));
 window.addEventListener("scroll", () => animationTwo("languages"));
 
-// CONTACT ANIMATION
+// CONTACT ANIMATION h
 document.getElementById("contact").addEventListener("click", () => {
   document.documentElement.scrollTop = 10000;
 });

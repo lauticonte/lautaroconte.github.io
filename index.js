@@ -11,7 +11,7 @@ $(document).ready(function() {
   $(".quote").html(html);
 });
 
-// ABOUT ME ANIMATION
+// ABOUT ME ANIMATION prueba
 const animations = (elementId) => {
   let animationEffect = document.getElementById(elementId);
   let scrollPosition = animationEffect.getBoundingClientRect().top;
